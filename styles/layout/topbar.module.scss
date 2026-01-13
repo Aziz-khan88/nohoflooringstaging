@@ -173,14 +173,240 @@
 
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .topbarSection {
-    display: none;
+    .sidePanel {
+      width: 55px;
+      top: 50%;
+      right: 30px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 55px;
+            height: 55px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          span {
+            height: 35px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .topbarSection {
+    .sidePanel {
+      width: 55px;
+      top: 50%;
+      right: 30px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 55px;
+            height: 55px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          span {
+            height: 35px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .topbarSection {
+    .sidePanel {
+      width: 55px;
+      top: 50%;
+      right: 30px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 55px;
+            height: 55px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          span {
+            height: 35px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+  .topbarSection {
+    .sidePanel {
+      width: 55px;
+      top: 50%;
+      right: 30px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 55px;
+            height: 55px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          span {
+            height: 35px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+  .topbarSection {
+    .sidePanel {
+      width: 50px;
+      top: 50%;
+      right: 20px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 20px;
+            }
+          }
+
+          span {
+            height: 30px;
+            font-size: 11px;
+          }
+        }
+
+        &:hover,
+        &.autoHover {
+          span {
+            transform: translate(-55px, -50%);
+
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+  .topbarSection {
+    .sidePanel {
+      width: 40px;
+      top: 50%;
+      right: 15px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 40px;
+            height: 40px;
+
+            svg {
+              height: 16px;
+            }
+          }
+
+          span {
+            height: 25px;
+            padding: 0px 10px;
+            font-size: 10px;
+          }
+        }
+
+        &:hover,
+        &.autoHover {
+          span {
+            transform: translate(-45px, -50%);
+
+          }
+        }
+
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .topbarSection {
-    display: none;
+    .sidePanel {
+      width: 40px;
+      top: 50%;
+      right: 5px;
+
+      .panelItem {
+
+        a,
+        div {
+          .panelIcon {
+            width: 40px;
+            height: 40px;
+
+            svg {
+              height: 16px;
+            }
+          }
+
+          span {
+            height: 25px;
+            padding: 0px 10px;
+            font-size: 10px;
+          }
+        }
+
+        &:hover,
+        &.autoHover {
+          span {
+            display: none;
+          }
+        }
+
+      }
+    }
   }
 }

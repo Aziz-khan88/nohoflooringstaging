@@ -14,7 +14,7 @@ const SidePanelPopup = ({ show, onHide, activePanel }) => {
             className="SideBar"
         >
             {activePanel === "schedule" && <Schedule onHide={onHide} />}
-            {activePanel === "payment" && <Payment />}
+            {activePanel === "payment" && <Payment onHide={onHide} />}
             {activePanel === "contact" && <Contcat onHide={onHide} />}
         </Modal>
     );

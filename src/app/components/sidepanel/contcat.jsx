@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import styles from "@/styles/components/sidepanel/contact.module.scss";
 import { useState } from "react";
-
+import { ClosedBtn } from "@/src/app/app-constants";
 const Contact = ({ onHide }) => {
     const [loading, setLoading] = useState(false);
     const router = useRouter();
@@ -30,6 +30,7 @@ const Contact = ({ onHide }) => {
 
     return (
         <div className={styles.contactWapper}>
+            <div className={styles.closedBtn} onClick={onHide}><ClosedBtn /></div>
             <h4 className={styles.serviceTitle}>Contact Form</h4>
 
             <form className={styles.calendarForm} onSubmit={handleSubmit}>

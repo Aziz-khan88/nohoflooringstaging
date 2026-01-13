@@ -5,6 +5,7 @@ import ServiceImg from "media/popup/servicesImg.webp";
 import Image from "next/image";
 import Calendar from "react-calendar";
 import { useRouter } from 'next/navigation';
+import { ClosedBtn } from "@/src/app/app-constants";
 
 const Schedule = ({ onHide }) => {
     const [step, setStep] = useState(1);
@@ -130,6 +131,7 @@ const Schedule = ({ onHide }) => {
     return (
         <form onSubmit={handleSubmit}>
             <div className={styles.scheduleWappert}>
+                <div className={styles.closedBtn} onClick={onHide}><ClosedBtn /></div>
                 <div className={styles.serviceBox}>
                     {step === 1 && (
                         <div>

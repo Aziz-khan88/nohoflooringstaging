@@ -1,5 +1,6 @@
 .contactWapper {
     padding: 25px;
+    position: relative;
 
     .serviceTitle {
         font-size: 20px;
@@ -73,6 +74,309 @@
 
             &:hover {
                 background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+            }
+        }
+    }
+
+    .closedBtn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+        z-index: 2;
+
+        svg {
+            width: auto;
+            height: 30px;
+
+            circle {
+                fill: #656d4a;
+            }
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .contactWapper {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .contactWapper {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .contactWapper {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .contactWapper {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .contactWapper {
+        padding: 20px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .contactWapper {
+        padding: 20px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            select {
+                height: 45px;
+                font-size: 13px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 40px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .contactWapper {
+        padding: 15px;
+
+        .serviceTitle {
+            font-size: 20px;
+
+        }
+
+        .calendarForm {
+            flex: 0 0 70%;
+
+            input {
+                height: 40px;
+                font-size: 13px;
+                flex: 0 0 100%;
+            }
+
+            select {
+                height: 40px;
+                font-size: 13px;
+                flex: 0 0 100%;
+            }
+
+            textarea {
+                height: 80px;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                height: 40px;
+                font-size: 13px;
             }
         }
     }

@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
 import styles from "@/styles/components/sidepanel/payment.module.scss";
+import { ClosedBtn } from "@/src/app/app-constants";
 
-const Payment = () => {
+
+const Payment = ({ onHide }) => {
     const [amount, setAmount] = useState("");
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
@@ -48,6 +50,7 @@ const Payment = () => {
 
             if (data.url) {
                 window.location.href = data.url;
+                onHide();
             } else {
                 throw new Error("Stripe URL not received");
             }
@@ -59,6 +62,7 @@ const Payment = () => {
 
     return (
         <div className={styles.paymentContainer}>
+            <div className={styles.closedBtn} onClick={onHide}><ClosedBtn /></div>
             <form onSubmit={handleSubmit}>
                 <h4 className={styles.serviceTitle}>Make a payment</h4>
 
